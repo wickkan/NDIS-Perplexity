@@ -112,64 +112,6 @@ During our demo video, we showcase Decode NDIS using the following real-world qu
 4. **Budget Planning**  
    _"Help me split $20,000 across Core, Capacity Building, and Capital Supports"_
 
-### Backend
-
-- **Python Flask API**: Provides RESTful endpoints for all features with CORS support
-- **Perplexity Sonar API**: Powers the intelligent reasoning with specialised models tailored for each feature
-- **NDIS Support Catalogue**: Curated database of official NDIS codes and pricing
-
-### Frontend
-
-- **Next.js & React**: Component-based UI for intuitive user experience
-- **Responsive Design**: Works on desktop and mobile devices
-- **Accessible Interface**: Designed with NDIS participants' needs in mind
-
-## Project Structure
-
-Our codebase is organised into backend and frontend components:
-
-### Backend
-
-- `backend/` - Python Flask API with Perplexity Sonar integration
-  - `main.py` - Core implementation of all NDIS decoder features with Perplexity Sonar API
-  - `app.py` - Flask API endpoints with CORS support for frontend integration
-  - `data/` - NDIS support catalogue and reference data
-  - `utils/` - Helper utilities
-  - `requirements.txt` - Python dependencies
-
-### Frontend
-
-- `frontend/` - Next.js React frontend
-  - `src/app/` - Next.js app router pages
-  - `src/components/` - React components including:
-    - `invoice-chat.tsx` - Main chat interface component
-    - `results.tsx` - Results display for all NDIS features
-    - `invoice-upload.tsx` - File upload functionality
-    - `ui/` - Reusable UI components
-  - `src/lib/` - Utility functions and API client
-
-## API Endpoints
-
-### Code Interpretation
-
-- `POST /api/decode` - Decode service descriptions into NDIS codes
-
-### Policy & Services Guidance
-
-- `POST /api/policy-guidance` - Get expert guidance on NDIS policies and service recommendations
-
-### NDIS Updates
-
-- `GET /api/ndis-updates` - Get the latest NDIS policy updates and news
-
-### Budget Planning
-
-- `POST /api/plan-budget` - Get budget allocation recommendations
-
-### System Status
-
-- `GET /api/health` - Check API health and available features
-
 ## Getting Started
 
 ### Prerequisites
@@ -201,7 +143,7 @@ cp .env.example .env
 python app.py
 ```
 
-The backend API will be available at http://localhost:3001
+The backend API will be available at http://localhost:3000
 
 #### Frontend
 
