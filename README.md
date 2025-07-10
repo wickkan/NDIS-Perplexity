@@ -42,6 +42,8 @@ These challenges often result in denied claims, underspent budgets, and particip
 - Provides clear explanations of code selection rationale
 - Handles complex service descriptions with multiple potential codes
 
+![gallery](https://github.com/user-attachments/assets/5e1ced9e-7fbb-4c97-8c33-2a2c02eb3762)
+
 #### 2. Policy & Services Guidance
 
 - Offers expert guidance on complex NDIS policies and rules
@@ -50,11 +52,15 @@ These challenges often result in denied claims, underspent budgets, and particip
 - Explains policy interpretations and appropriate service options
 - Maps recommendations to specific NDIS support codes
 
+![prompt2](https://github.com/user-attachments/assets/3da12317-8b4d-4a17-b68e-83934475c7d8)
+
 #### 3. Real-time NDIS Updates
 
 - Tracks and summarises the latest changes to NDIS policies and pricing
 - Focuses on updates with significant impact on participants and providers
 - Structures updates in an easy-to-understand format
+  
+![prompt4](https://github.com/user-attachments/assets/6726c17a-f75b-4590-8624-fca75843ce94)
 
 #### 4. Budget Planning Assistant
 
@@ -62,6 +68,8 @@ These challenges often result in denied claims, underspent budgets, and particip
 - Considers participant needs, goals, and priorities
 - Provides detailed breakdown with recommended services
 - Links budget categories to relevant NDIS codes
+
+![prompt3](https://github.com/user-attachments/assets/b71ab480-6c10-4ee7-9e57-0cf61050d5f4)
 
 ## How We Leveraged Perplexity's Sonar API
 
@@ -93,22 +101,6 @@ Decode NDIS transforms how participants interact with the NDIS by:
 ## Hackathon Submission Category
 
 This project is submitted in the category of **Health** as it addresses specific, documented challenges faced by NDIS participants and plan managers that are within the Australian healthcare system.
-
-## Demo Prompts Used
-
-During our demo video, we showcase Decode NDIS using the following real-world queries:
-
-1. **Code Interpretation**  
-   _"What is the NDIS code for House or Yard Maintenance?"_
-
-2. **Policy & Services Guidance**  
-   _"Can I use NDIS funds for food delivery or sports activities?"_
-
-3. **NDIS Updates**  
-   _"What’s changed in NDIS funding or rules in 2025?"_
-
-4. **Budget Planning**  
-   _"Help me split $20,000 across Core, Capacity Building, and Capital Supports"_
 
 ## Getting Started
 
