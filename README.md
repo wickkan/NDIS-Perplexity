@@ -94,8 +94,6 @@ Decode NDIS transforms how participants interact with the NDIS by:
 
 This project is submitted in the category of **Health** as it addresses specific, documented challenges faced by NDIS participants and plan managers that are within the Australian healthcare system.
 
-## Technology Stack
-
 ## Demo Prompts Used
 
 During our demo video, we showcase Decode NDIS using the following real-world queries:
