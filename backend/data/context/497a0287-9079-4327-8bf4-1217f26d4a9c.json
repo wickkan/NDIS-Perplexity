@@ -1,0 +1,26 @@
+{
+  "session_id": "497a0287-9079-4327-8bf4-1217f26d4a9c",
+  "created_at": "2025-05-15T20:30:53.003431",
+  "last_updated": "2025-05-15T20:30:53.003596",
+  "context": {
+    "queries": [],
+    "pinned_items": [
+      {
+        "content": {
+          "content": {
+            "type": "support_code",
+            "code": "01_011_0107_1_1",
+            "description": "Assistance with Self-Care Activities - Standard - Weekday Daytime",
+            "note": "Important code for daily support"
+          },
+          "pinned_at": "2025-05-15T20:30:53.003588",
+          "id": "1324af0d"
+        },
+        "pinned_at": "2025-05-15T20:30:53.003597"
+      }
+    ],
+    "support_codes_mentioned": [],
+    "relevant_policies": [],
+    "recent_topics": []
+  }
+}

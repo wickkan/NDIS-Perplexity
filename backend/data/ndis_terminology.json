@@ -1,0 +1,16 @@
+{
+  "acronyms": {
+    "SIL": "Supported Independent Living",
+    "SDA": "Specialist Disability Accommodation",
+    "LAC": "Local Area Coordinator",
+    "ECEI": "Early Childhood Early Intervention",
+    "AT": "Assistive Technology"
+  },
+  "common_terms": {
+    "plan": "NDIS plan",
+    "participant": "NDIS participant",
+    "funding": "NDIS funding",
+    "provider": "NDIS provider",
+    "support": "NDIS support"
+  }
+}

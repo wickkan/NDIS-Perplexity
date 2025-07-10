@@ -1,0 +1,35 @@
+{
+  "session_id": "c5dd1664-ddab-43a3-b45b-a542df6a3111",
+  "created_at": "2025-05-15T20:29:42.477516",
+  "last_updated": "2025-05-15T20:30:38.105998",
+  "context": {
+    "queries": [
+      {
+        "query": "Assistance with self-care activities",
+        "timestamp": "2025-05-15T20:29:48.382568"
+      },
+      {
+        "query": "What are the rules for SIL funding?",
+        "timestamp": "2025-05-15T20:29:54.011544"
+      },
+      {
+        "query": "I need help with daily activities and mobility",
+        "timestamp": "2025-05-15T20:30:03.238526"
+      },
+      {
+        "query": "NDIS updates pricing 6 months",
+        "timestamp": "2025-05-15T20:30:22.637857"
+      },
+      {
+        "query": "I need assistance with daily activities and therapy",
+        "timestamp": "2025-05-15T20:30:38.106007"
+      }
+    ],
+    "pinned_items": [],
+    "support_codes_mentioned": [],
+    "relevant_policies": [],
+    "recent_topics": [
+      ""
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "citations": [],
+  "confidence_indicator": "Standard confidence",
+  "confidence_score": 0.5,
+  "contains_uncertainty": true,
+  "explanation": "Based on your description 'Assistance with self-care activities', the most relevant NDIS support code is 05_093305121_0103_1_2 for Bathing Support - Special Design. This falls under the Assistive Technology category. Multiple NDIS codes could potentially apply depending on specific details. Please review all options to select the most appropriate code for your situation.",
+  "price_caps": {},
+  "rules": [],
+  "summary": "Based on your description 'Assistance with self-care activities', the most re...",
+  "support_codes": [],
+  "uncertain_statements": [
+    " multiple ndis codes could potentially apply depending on specific details."
+  ],
+  "verification_status": "No verifiable facts found",
+  "warning": "No citations available - information may be outdated"
+}
