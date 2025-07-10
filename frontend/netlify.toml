@@ -1,0 +1,38 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF ./"
+
+[build.environment]
+  NEXT_DISABLE_ESLINT_DURING_BUILD = "true"
+  NEXT_TELEMETRY_DISABLED = "1"
+  NODE_ENV = "production"
+  NEXT_WEBPACK_USEPOLLING = "1"
+
+[dev]
+  command = "npm run dev"
+  targetPort = 3000
+  port = 8888
+  publish = "out"
+
+# For Next.js SSR
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# This redirect is required for Next.js apps with a static HTML fallback
+[[redirects]]
+  from = "/_next/static/*"
+  to = "/static/:splat"
+  status = 200
+
+# API routes will be handled by the API function
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+# This redirect ensures that all routes are handled by Next.js
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
